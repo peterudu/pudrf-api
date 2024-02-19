@@ -17,7 +17,7 @@ class CommentSerializer(serializers.ModelSerializer):
         return request.user == obj.owner
 
 
-     class Meta:
+    class Meta:
         model = Comment
         fields = [
             'id', 'owner', 'is_owner', 'profile_id', 'profile_image','post',
