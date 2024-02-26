@@ -60,9 +60,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 # DEBUG = True
 
-ALLOWED_HOSTS = ['greencontributionsapi.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['greencontributionsapi-566fa0a05bf8.herokuapp.com', 'localhost']
 # ALLOWED_HOSTS = ['8000-peterudu-pudrfapi-yk89b4dn1gm.ws-eu108.gitpod.io']
-
+ 
 # Application definition
 
 INSTALLED_APPS = [
